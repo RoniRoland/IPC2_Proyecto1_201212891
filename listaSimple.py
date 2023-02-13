@@ -12,7 +12,7 @@ class ListaSimple:
             print(temp.datos)
             temp = temp.siguiente
 
-    def push(self, new_datos):
+    def agregarInicio(self, new_datos):
         new_Nodo = Nodo(new_datos)
         new_Nodo.siguiente = self.inicio
         self.inicio = new_Nodo
