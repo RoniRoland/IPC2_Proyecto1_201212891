@@ -22,13 +22,43 @@
         <muestra>
             <codigo>1</codigo>
             <descripcion>Epidemia1</descripcion>
-            <filas>1</filas>
-            <columnas>1</columnas>
+            <filas>18</filas>
+            <columnas>14</columnas>
             <listadoCeldasVivas>
                 <celdaViva>
                     <fila>4</fila>
                     <columna>4</columna>
                     <codigoOrganismo>1</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>4</fila>
+                    <columna>5</columna>
+                    <codigoOrganismo>2</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>5</fila>
+                    <columna>4</columna>
+                    <codigoOrganismo>2</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>5</fila>
+                    <columna>5</columna>
+                    <codigoOrganismo>2</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>6</fila>
+                    <columna>3</columna>
+                    <codigoOrganismo>2</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>6</fila>
+                    <columna>4</columna>
+                    <codigoOrganismo>2</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>6</fila>
+                    <columna>5</columna>
+                    <codigoOrganismo>2</codigoOrganismo>
                 </celdaViva>
             </listadoCeldasVivas>
         </muestra>
@@ -67,6 +97,21 @@
                     <fila>6</fila>
                     <columna>5</columna>
                     <codigoOrganismo>2</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>7</fila>
+                    <columna>9</columna>
+                    <codigoOrganismo>3</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>8</fila>
+                    <columna>8</columna>
+                    <codigoOrganismo>3</codigoOrganismo>
+                </celdaViva>
+                <celdaViva>
+                    <fila>9</fila>
+                    <columna>9</columna>
+                    <codigoOrganismo>3</codigoOrganismo>
                 </celdaViva>
             </listadoCeldasVivas>
         </muestra>

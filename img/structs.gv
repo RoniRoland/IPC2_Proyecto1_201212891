@@ -1,0 +1,15 @@
+digraph structs {
+	node [shape=record]
+	1 [label=A]
+	2 [label=B]
+	1 -> 2
+	2 -> 1
+	2 [label=B]
+	3 [label=C]
+	2 -> 3
+	3 -> 2
+	3 [label=C]
+	4 [label=D]
+	3 -> 4
+	4 -> 3
+}

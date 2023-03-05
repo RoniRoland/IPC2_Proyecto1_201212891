@@ -1,8 +1,8 @@
-from nodo import Nodo
+from nodoRow import NodoRow
 from grafica import Graph
 
 
-class ListaEnlazada:
+class ListaFilas:
     id = 0
 
     def __init__(self):
@@ -12,15 +12,16 @@ class ListaEnlazada:
 
     def insertar(self, valor):
         self.id += 1
-        actual = Nodo(valor, self.id)
+        actual = valor
+        valor_incremento = 1
         if self.size == 0:
             self.primero = actual
             self.ultimo = actual
         else:
-            actual.setAnterior(self.ultimo)
-            self.ultimo.setSiguiente(actual)
-            self.ultimo = actual
-        self.size += 1
+            fila_primero = self.primero.getFila()
+            nodo_primero = self.primero
+
+            while actual != None
 
     def addPos(pos_fila):
         pass

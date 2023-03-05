@@ -1,6 +1,8 @@
 from leerXML import Leer_XML
 from listaEnlazada import ListaEnlazada
 
+li = []
+
 
 def main():
     print("=====================ANALISIS DE MUESTRAS======================")
@@ -12,8 +14,9 @@ def main():
         try:
             option = int(input("Ingrese una opcion: "))
             if option == 1:
+
                 print('\n============CARGA DE ARCHIVO==============\n')
-                Leer_XML()
+                Leer_XML(li)
                 print(
                     "\n********************ARCHIVO CARGADO EXITOSAMENTE*****************\n")
                 input('\nPresione enter para continuar...')
