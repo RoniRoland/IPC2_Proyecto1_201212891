@@ -5,12 +5,12 @@ from rowsList import ListaFilas
 from nodoRow import NodoRow
 
 
-def Leer_XML():
+def Leer_XML(listaOrganismos):
     opc = input("Ingrese nombre del archivo: ")
     tree = ET.parse(opc)
     data = tree.getroot()
     listaOrganismos = ListaEnlazada()
-    listFilas = ListaFilas
+    listFilas = ListaFilas()
 
     for item in data:
         if (item.tag == "listaOrganismos"):
@@ -21,9 +21,10 @@ def Leer_XML():
 
         elif (item.tag == "ListadoMuestras"):
             for muestra in item.iter("muestra"):
-                for listadoceldasvivas in item.iter("listadoCeldaVivas"):
-                    for celdaviva in item.iter("celdaViva"):
+                for listadoceldasvivas in muestra.iter("listadoCeldaVivas"):
+                    for celdaviva in listadoceldasvivas.iter("celdaViva"):
                         listFilas.insertar(
                             NodoRow(celdaviva.find("fila").text))
+                        print(celdaviva.find("columna").text)
 
     # listaOrganismos.printNodos()

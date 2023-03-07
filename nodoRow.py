@@ -17,7 +17,7 @@ class NodoRow:
         return self.filaSiguiente
 
     def setFilaSiguiente(self, filaSiguiente):
-        self.filastguiente = filaSigutente
+        self.filastguiente = filaSiguiente
 
     def getFilaAnterior(self):
         return self.filaAnterior

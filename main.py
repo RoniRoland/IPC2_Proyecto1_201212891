@@ -1,7 +1,7 @@
 from leerXML import Leer_XML
 from listaEnlazada import ListaEnlazada
 
-li = []
+listaOrga = ListaEnlazada()
 
 
 def main():
@@ -16,9 +16,10 @@ def main():
             if option == 1:
 
                 print('\n============CARGA DE ARCHIVO==============\n')
-                Leer_XML(li)
+                Leer_XML(listaOrga)
                 print(
                     "\n********************ARCHIVO CARGADO EXITOSAMENTE*****************\n")
+                listaOrga.printNodos()
                 input('\nPresione enter para continuar...')
                 main()
                 break
